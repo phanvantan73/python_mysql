@@ -3,9 +3,9 @@ import constant
 
 def connectDb():
 	return mysql.connector.connect(
-		host=constant.dbInfor["host"], 
-		user=constant.dbInfor["user"], 
-		passwd=constant.dbInfor["passwd"], 
+		host=constant.dbInfor["host"],
+		user=constant.dbInfor["user"],
+		passwd=constant.dbInfor["passwd"],
 		database=constant.dbInfor["database"]
 	)
 

@@ -18,4 +18,4 @@ class Student():
 		print('Code: ' + self.code)
 		print('Name: ' + self.name)
 		print('Class: ' + self.className)
-		print('-------------')
+		print('--------------')
